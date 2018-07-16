@@ -76,7 +76,7 @@ puts "Tu nombre es #{first_name} #{last_name} y naciste en #{city}!"
 
 ### If
 ```ruby
-print "Integer please: "
+print "Ingrese un numero: "
 user_num = Integer(gets.chomp)
 
 if user_num < 0
