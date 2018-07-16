@@ -1,4 +1,4 @@
-# Ruby de 0 a 100% en una noche! :nerd_face:
+# Ruby de 0 a 100% :nerd_face:
 
 ## Introduccion
 ### Tipos de datos
