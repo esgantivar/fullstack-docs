@@ -108,3 +108,69 @@ end
 1. Or (||)
 2. And (&&)
 
+
+## Algunas operaciones sobre strings
+### Concatenacion
+```ruby
+name = 'Sneyder'
+puts "Mi nombre es: #{name}"
+```
+
+### Multiplicación(*)
+```ruby
+s = "-*-"
+puts = s*10
+```
+
+## Ciclos
+### While
+```ruby
+counter = 1
+while counter < 11
+  puts counter
+  counter = counter + 1
+end
+```
+
+### Until
+```ruby
+counter = 1
+until counter > 10
+  puts counter
+  counter +=1
+end
+```
+
+### For
+#### Rango incluyente
+```ruby
+for num in 1...10
+  puts num
+end
+```
+#### Rango excluyente
+```ruby
+for num in 1...10
+  puts num
+end
+```
+
+### Arreglos
+
+```ruby
+my_array = [1,2,3,4,5]
+```
+
+#### Iterar un array
+```ruby
+array.each { |x|
+  x += 10
+  puts "#{x}"
+}
+```
+
+### Ciclo Time
+
+```ruby
+10.times { print "spam" }
+```
