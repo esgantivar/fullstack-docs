@@ -1,8 +1,7 @@
 # 0 a 100% Ruby
 
-
-´´´ruby
+```ruby
 until
   code block
 end
-´´´
+```
