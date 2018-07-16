@@ -1,4 +1,4 @@
-# 0 a 100% Ruby
+# Ruby de 0 a 100% en una noche! :')
 
 ## Introduccion
 ### Tipos de datos
