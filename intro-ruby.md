@@ -174,3 +174,47 @@ array.each { |x|
 ```ruby
 10.times { print "spam" }
 ```
+
+## Hashes
+```ruby
+my_hash = { "name" => "Eric",
+  "age" => 26,
+  "hungry?" => true
+}
+
+puts my_hash["name"]
+puts my_hash["age"]
+puts my_hash["hungry?"]
+
+puts my_hash
+```
+
+```ruby
+pets = Hash.new
+
+
+pets['cat']='cat'
+
+puts pets['cat']
+```
+
+
+```ruby
+family = { "Homer" => "dad",
+  "Marge" => "mom",
+  "Lisa" => "sister",
+  "Maggie" => "sister",
+  "Abe" => "grandpa",
+  "Santa's Little Helper" => "dog"
+}
+family.each { |x, y| puts "#{x}: #{y}" }
+```
+
+## Metodos
+```ruby
+def mi_primer_metodo
+  puts "mi primer metodo"
+end
+
+
+```
