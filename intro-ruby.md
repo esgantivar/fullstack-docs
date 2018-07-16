@@ -1,6 +1,6 @@
 # Ruby de 0 a 100% :nerd_face:
 
-## Introduccion
+## Introducción
 ### Tipos de datos
 
 ```ruby
