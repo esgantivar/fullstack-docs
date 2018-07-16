@@ -1,14 +1,5 @@
 # Documentacion curso fullstack
 
+* [Introducción a Ruby](intro-ruby.md)
+
 [Links utiles](links-utiles.md)
-
-
-```html
-<div class="class 1"></div>
-```
-
-```javascript
-var a = 2
-```
-
-[Introducción a Ruby](intro-ruby.md)
