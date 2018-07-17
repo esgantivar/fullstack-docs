@@ -214,3 +214,25 @@ end
 
 
 ```
+
+## Clases
+```ruby
+class Dog  
+    def initialize(breed, name)  
+      @breed = breed  
+      @name = name  
+    end  
+    
+    def ladrar  
+      puts 'Guau! Guau!'  
+    end  
+    
+    def display  
+      puts "Mi raza es: #{@breed} y mi nombre es #{@name}"  
+    end  
+  end  
+    
+  d = Dog.new('Labrador', 'Spike')  
+  puts d.ladrar
+  puts d.display
+```
