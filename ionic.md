@@ -8,3 +8,7 @@ $ npm install -g ionic cordova
 ```
 $ ionic start MyIonicProject tutorial
 ```
+### Correr aplicación
+```
+$ ionic serve
+```
