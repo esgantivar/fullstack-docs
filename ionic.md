@@ -12,3 +12,6 @@ $ ionic start MyIonicProject tutorial
 ```
 $ ionic serve
 ```
+
+### Componentes
+Las aplicaciones ionic están hechas de bloques de construcción de alto nivel llamados componentes. Los componentes le permiten construir rápidamente una interfaz para su aplicación.
