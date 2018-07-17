@@ -230,9 +230,9 @@ class Dog
     def display  
       puts "Mi raza es: #{@breed} y mi nombre es #{@name}"  
     end  
-  end  
+end  
     
-  d = Dog.new('Labrador', 'Spike')  
-  puts d.ladrar
-  puts d.display
+d = Dog.new('Labrador', 'Spike')  
+puts d.ladrar
+puts d.display
 ```
