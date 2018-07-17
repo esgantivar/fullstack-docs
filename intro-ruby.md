@@ -115,7 +115,7 @@ puts "Mi nombre es: #{name}"
 ### Multiplicación(*)
 ```ruby
 s = "-*-"
-puts = s*10
+puts s*10
 ```
 
 ## Ciclos
@@ -204,6 +204,15 @@ family = { "Homer" => "dad",
   "Santa's Little Helper" => "dog"
 }
 family.each { |x, y| puts "#{x}: #{y}" }
+```
+
+## Bloque Begin Rescue
+```ruby
+begin  
+  t = Integer("nosoyunnumero")
+rescue  
+  puts "no era un numero"
+end 
 ```
 
 ## Metodos
