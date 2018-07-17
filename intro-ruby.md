@@ -140,7 +140,7 @@ end
 ### For
 #### Rango incluyente
 ```ruby
-for num in 1...10
+for num in 1..10
   puts num
 end
 ```
