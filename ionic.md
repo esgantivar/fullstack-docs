@@ -4,7 +4,7 @@
 $ npm install -g ionic cordova
 ```
 
-### Crear nueva aplicacion en blanco
+### Crear nueva aplicación en blanco
 ```
 $ ionic start MyIonicProject tutorial
 ```
