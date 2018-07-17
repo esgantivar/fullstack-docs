@@ -100,6 +100,19 @@ else
 end
 ```
 
+### Switch case
+```ruby
+t = 2
+case t
+when 1
+    puts "era uno"
+when 2
+    puts "era dos"
+else
+    puts "caso por defecto"
+end
+```
+
 ### Operadores Logicos
 1. Or (||)
 2. And (&&)
