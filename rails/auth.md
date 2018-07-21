@@ -35,3 +35,18 @@
     ```
     $ rails g devise:views
     ```
+
+### Generar Usuario con sistema de autenticación
+
+1. ```$ rails generate devise User ```
+    >Este comando va a crear un modelo  ```User``` con los campos email y password y generara algunos campos como la ultima vez que se autentico, la ultima vez que se reinio la contraseña, etc.
+2. Con el anterior comando se generaron los archivos de migración, ahora vamos a aplicar esta migración usando ```rails db:migrate ```
+
+Los anteriores pasos deben generar el siguiente codigo
+```ruby
+app/models/user.rb
+
+class User < ActiveRecord::Base
+  devise :database_authenticatable, :registerable, :recoverable, :reemberable, :trackable, :validatable
+end
+```
