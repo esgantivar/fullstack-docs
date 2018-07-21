@@ -25,8 +25,7 @@
         <%= alert %>
     </div>
     ```
-> En este momento el proyecto ya tiene configuradas las vistas para manejar el proceso de autenticación, sin embargo si n
-necesitamos personalizar estas vistas.
+> En este momento el proyecto ya tiene configuradas las vistas para manejar el proceso de autenticación, sin embargo normalmente necesitamos personalizar estas vistas.
 4. Verificar las rutas que estan creadas por devise
     ```
     $ rails routes
