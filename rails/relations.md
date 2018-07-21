@@ -86,3 +86,47 @@ class Author < ApplicationRecord
 end
 ```
 ## Muchos a Muchos (Many to Many)
+Ahora consideremos una relacion muchos a muchos, por ejemplo una tienda puede tener muchos productos y un producto puede estar en muchas tiendas 
+
+Para este particular caso es necesario una tabla puente para manejar la relacion 
+
+```ruby
+class Store < ApplicationRecord
+  has_many :stocks
+  has_many :products, through: :stocks
+end
+ 
+class Stock < ApplicationRecord
+  belongs_to :store
+  belongs_to :product
+end
+ 
+class Product < ApplicationRecord
+  has_many :stocks
+  has_many :stores, through: :stocks
+end
+```
+
+La migración correspondiente es:
+```ruby
+class CreateStock < ActiveRecord::Migration[5.2]
+  def change
+    create_table :stores do |t|
+      t.string :name
+      t.timestamps
+    end
+ 
+    create_table :products do |t|
+      t.string :name
+      t.timestamps
+    end
+ 
+    create_table :stocks do |t|
+      t.belongs_to :store, index: true
+      t.belongs_to :product, index: true
+      t.integer :available
+      t.timestamps
+    end
+  end
+end
+```
