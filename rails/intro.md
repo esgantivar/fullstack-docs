@@ -25,3 +25,9 @@ Aplicar una migración
 ```
 $ rails db:migrate
 ```
+
+Generar una migración
+
+```
+$ rails g migration [Nombre de la migración]
+```
