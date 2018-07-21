@@ -1,2 +1,2 @@
 # Rails
-1. [Autenticación](rails/auth.md)
+1. [Autenticación](auth.md)
