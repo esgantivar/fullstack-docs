@@ -1,2 +1,3 @@
 # Rails
-1. [Autenticación](auth.md)
+1. [Relaciones](relations.md)
+2. [Autenticación](auth.md)
