@@ -20,3 +20,8 @@ Crear un modelo
 ```
 $ rails generate model [nombre del modelo] [nombre atributo:tipo, ...]
 ```
+
+Aplicar una migración
+```
+$ rails db:migrate
+```
