@@ -71,3 +71,8 @@ current_user
 # Conocer si un usuario esta autenticado
 user_signed_in?
 ```
+
+Logout
+```ruby
+<%= link_to "Logout", destroy_user_session_path, method: :delete, class: 'nav-link' %>
+```
